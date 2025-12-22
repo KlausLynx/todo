@@ -37,7 +37,11 @@ import 'flowbite/dist/flowbite.min.css';
 // import FormValidation from './days/day6/FormValidation';
 // import ProductAvailable from './days/day6/ProductAvailable';
 
-import RecipeGallery from './days/day7/RecipeCard';
+// import RecipeGallery from './days/day7/RecipeCard'; 
+
+// import Handles from './days/day8/handles.jsx';
+
+import LucideApp from './days/day8/Learn';
 
 const App = () => {
 //   const user = {
@@ -193,10 +197,14 @@ const App = () => {
     // </>
 
 
-    <div className="app-container">
-      <RecipeGallery />
-    </div>
+    // <div className="app-container">
+    //   <RecipeGallery />
+    // </div>
 
+    <>
+    {/* <Handles /> */}
+    <LucideApp />
+    </>
   )
 }
 
