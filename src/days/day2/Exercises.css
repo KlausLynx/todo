@@ -1,0 +1,131 @@
+@import "tailwindcss";
+@import "flowbite/dist/flowbite.min.css";
+/* @plugin "flowbite-react/plugin/tailwindcss";
+@source "../../../.flowbite-react/class-list.json"; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 32, 57);
+}
+
+/* .product-card {
+    @apply  rounded-lg shadow-md p-4 m-4 min-w-60;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 300px;
+    gap: 1rem;
+} */
+
+.product-id {
+    @apply mb-2;
+    align-self: self-end;
+}
+
+.items-center {
+    align-self: start;
+}
+
+.card-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.original-price-section {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.discount {
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+}
+
+.weather-widget,
+.product-card {
+    @apply rounded-lg shadow-md p-4 m-4 min-w-60;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 200px;
+     font-family: Arial, sans-serif;
+}
+
+.user-stats,
+.grade-card {
+    @apply rounded-lg shadow-md p-4 m-4 min-w-60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 350px;
+     font-family: Arial, sans-serif;
+}
+
+.product-card {
+    background-color: blue;
+}
+
+.grade-card {
+    background-color: #e0f7fa;
+    width: 300px;
+}
+
+.card-body {
+    width: 100%
+}
+
+.stats-data {
+    background-color: antiquewhite;
+    /* padding-left: 0.5rem;
+    padding-right: 2rem; */
+    padding: 0.5rem 2rem 1rem 0.59rem;
+    border-radius: 5px;
+}
+
+.stats-data p:first-child {
+    color: gray;
+
+}
+
+.stats-data p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blog-preview {
+    @apply rounded-lg shadow-md p-4 m-4 min-w-60;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-width: 300px;
+     font-family: Arial, sans-serif;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
