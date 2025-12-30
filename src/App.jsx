@@ -41,7 +41,11 @@ import 'flowbite/dist/flowbite.min.css';
 
 // import Handles from './days/day8/handles.jsx';
 
-import LucideApp from './days/day8/Learn';
+// import LucideApp from './days/day8/Learn';
+
+// import AllComponent from './days/day9/learn';
+
+import MainComponent from './days/day10/learn';
 
 const App = () => {
 //   const user = {
@@ -203,7 +207,9 @@ const App = () => {
 
     <>
     {/* <Handles /> */}
-    <LucideApp />
+    {/* <LucideApp /> */}
+    {/* <AllComponent /> */}
+    <MainComponent />
     </>
   )
 }

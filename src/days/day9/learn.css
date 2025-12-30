@@ -1,0 +1,13 @@
+.mainContainer {
+    max-width: 1200px;
+    width: 100%;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: minmax(150px, auto);
+    padding: 2rem;
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+
+}
