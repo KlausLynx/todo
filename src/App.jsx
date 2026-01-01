@@ -45,7 +45,9 @@ import 'flowbite/dist/flowbite.min.css';
 
 // import AllComponent from './days/day9/learn';
 
-import MainComponent from './days/day10/learn';
+// import MainComponent from './days/day10/learn';
+
+import MainComponent from './days/day11/learn.jsx';
 
 const App = () => {
 //   const user = {
