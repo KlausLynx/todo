@@ -57,9 +57,18 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import MainComponent from './days/day13/learn';
 
-import MainComponent from './days/day14/learn';
-import Home from './days/day14/home.jsx';
+// import MainComponent from './days/day14/learn';
+// import Home from './days/day14/home.jsx';
 
+// import MainComponent from './days/day15/learn';
+
+// import MainComponent from './days/day16/learn';
+
+// import MainComponent from './days/day17/learn';
+
+// import MainComponent from './days/day18/userContext/app';
+
+import MainComponent from './days/day19/MultiApp/app'
 
 
 const App = () => {
@@ -224,13 +233,13 @@ const App = () => {
     {/* <Handles /> */}
     {/* <LucideApp /> */}
     {/* <AllComponent /> */}
-    {/* <MainComponent /> */}
-    <BrowserRouter basename="/todo">
+    <MainComponent />
+    {/* <BrowserRouter basename="/todo">
       <Routes>
         <Route path="/" element={<MainComponent />} />
         <Route path="/home" element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     </>
   )
 }
