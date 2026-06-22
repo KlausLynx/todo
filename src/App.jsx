@@ -68,9 +68,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import MainComponent from './days/day18/userContext/app';
 
-import MainComponent from './days/day19/settings/settingContent'
+// import MainComponent from './days/day19/settings/settingContent'
 
-// import MainComponent from './days/day19/Multicontent';
+// import MainComponent from './days/day20/cleanup'
+
+import MainComponent from './days/day21/Weather.jsx';
 
 
 const App = () => {
